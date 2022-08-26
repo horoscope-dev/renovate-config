@@ -236,6 +236,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/client-rds@npm:3.112.0":
+  version: 3.112.0
+  resolution: "@aws-sdk/client-rds@npm:3.112.0"
+  dependencies:
+    "@aws-crypto/sha256-browser": 2.0.0
+    "@aws-crypto/sha256-js": 2.0.0
+    "@aws-sdk/client-sts": 3.112.0
+    "@aws-sdk/config-resolver": 3.110.0
+    "@aws-sdk/credential-provider-node": 3.112.0
+    "@aws-sdk/fetch-http-handler": 3.110.0
+    "@aws-sdk/hash-node": 3.110.0
+    "@aws-sdk/invalid-dependency": 3.110.0
+    "@aws-sdk/middleware-content-length": 3.110.0
+    "@aws-sdk/middleware-host-header": 3.110.0
+    "@aws-sdk/middleware-logger": 3.110.0
+    "@aws-sdk/middleware-recursion-detection": 3.110.0
+    "@aws-sdk/middleware-retry": 3.110.0
+    "@aws-sdk/middleware-sdk-rds": 3.110.0
+    "@aws-sdk/middleware-serde": 3.110.0
+    "@aws-sdk/middleware-signing": 3.110.0
+    "@aws-sdk/middleware-stack": 3.110.0
+    "@aws-sdk/middleware-user-agent": 3.110.0
+    "@aws-sdk/node-config-provider": 3.110.0
+    "@aws-sdk/node-http-handler": 3.110.0
+    "@aws-sdk/protocol-http": 3.110.0
+    "@aws-sdk/smithy-client": 3.110.0
+    "@aws-sdk/types": 3.110.0
+    "@aws-sdk/url-parser": 3.110.0
+    "@aws-sdk/util-base64-browser": 3.109.0
+    "@aws-sdk/util-base64-node": 3.55.0
+    "@aws-sdk/util-body-length-browser": 3.55.0
+    "@aws-sdk/util-body-length-node": 3.55.0
+    "@aws-sdk/util-defaults-mode-browser": 3.110.0
+    "@aws-sdk/util-defaults-mode-node": 3.110.0
+    "@aws-sdk/util-user-agent-browser": 3.110.0
+    "@aws-sdk/util-user-agent-node": 3.110.0
+    "@aws-sdk/util-utf8-browser": 3.109.0
+    "@aws-sdk/util-utf8-node": 3.109.0
+    "@aws-sdk/util-waiter": 3.110.0
+    entities: 2.2.0
+    fast-xml-parser: 3.19.0
+    tslib: ^2.3.1
+  checksum: a7e77ecd24b2f1f535b134b84136036f05d1b06d6b6d905a497b50412806973009da92698c3fc6026635ef707acb683e5731233a60b5e5120be07d144dfccc1d
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/client-s3@npm:3.113.0":
   version: 3.113.0
   resolution: "@aws-sdk/client-s3@npm:3.113.0"
@@ -737,6 +783,19 @@ __metadata:
     "@aws-sdk/util-format-url": 3.110.0
     tslib: ^2.3.1
   checksum: f408c01273f0aa14f8385482bb847353d70c60d7b2f14be05ae42552154f5ed7e09d6a533e371856ac403e11fa366d9acb90853fb2943a3098f02fc668c47858
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/middleware-sdk-rds@npm:3.110.0":
+  version: 3.110.0
+  resolution: "@aws-sdk/middleware-sdk-rds@npm:3.110.0"
+  dependencies:
+    "@aws-sdk/protocol-http": 3.110.0
+    "@aws-sdk/signature-v4": 3.110.0
+    "@aws-sdk/types": 3.110.0
+    "@aws-sdk/util-format-url": 3.110.0
+    tslib: ^2.3.1
+  checksum: e0caa487c309ab72708821e885e326471e27342e23a62ae65cd050f9b86afed5937ff7db8815817a1189676eee596e290a854d45f1c6f6ce113392aceb293679
   languageName: node
   linkType: hard
 
@@ -1309,7 +1368,7 @@ __metadata:
     eslint: 8.22.0
     fast-deep-equal: 3.1.3
     prettier: 2.7.1
-    renovate: 32.169.1
+    renovate: 32.179.1
     ts-node: 10.9.1
     typescript: 4.7.4
   languageName: unknown
@@ -1356,17 +1415,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jamiemagee/osv-offline@npm:1.2.10":
-  version: 1.2.10
-  resolution: "@jamiemagee/osv-offline@npm:1.2.10"
+"@jamiemagee/osv-offline@npm:1.2.11":
+  version: 1.2.11
+  resolution: "@jamiemagee/osv-offline@npm:1.2.11"
   dependencies:
     "@jamiemagee/osv-offline-db": 1.1.4
-    "@octokit/rest": 19.0.3
+    "@octokit/rest": 19.0.4
     adm-zip: ^0.5.9
     fs-extra: 10.0.0
     got: 11.8.5
     luxon: 3.0.1
-  checksum: 731e4b034d8c9d481a8d1d335f119669c48f54689840340be2b6af409fe6604324fc4007bbd9ea3fd0eb0af34231fc73e928ea1738ccfb7091eba7b944308bab
+  checksum: 0447ae5304a75e59d747f381395c08029884408f16981e165fc198a34b23771ff172af6e2a7229295d634852d9876420104daf9271570291b0d074cd960229aa
   languageName: node
   linkType: hard
 
@@ -1512,28 +1571,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^12.11.0":
-  version: 12.11.0
-  resolution: "@octokit/openapi-types@npm:12.11.0"
-  checksum: 8a7d4bd6288cc4085cabe0ca9af2b87c875c303af932cb138aa1b2290eb69d32407759ac23707bb02776466e671244a902e9857896903443a69aff4b6b2b0e3b
-  languageName: node
-  linkType: hard
-
 "@octokit/openapi-types@npm:^13.4.0":
   version: 13.4.0
   resolution: "@octokit/openapi-types@npm:13.4.0"
   checksum: e5bb4573f065d0847c783db818eaa28fe2f8ec160334060e606c65dbf96a8c2108bcfed03da457e25b5dd9c0847b09cccf1206c709ee45c43108bb5d29808e9e
-  languageName: node
-  linkType: hard
-
-"@octokit/plugin-paginate-rest@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@octokit/plugin-paginate-rest@npm:3.1.0"
-  dependencies:
-    "@octokit/types": ^6.41.0
-  peerDependencies:
-    "@octokit/core": ">=4"
-  checksum: a09212a1c6e0be4a7929acd192659cb204fcb7c6a52cf7e7f1b87da0338d812c8c26e7ee44d00e8b9824d8904d6caaa978a84c26001ab982ffec5123600aa4d8
   languageName: node
   linkType: hard
 
@@ -1594,18 +1635,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/rest@npm:19.0.3":
-  version: 19.0.3
-  resolution: "@octokit/rest@npm:19.0.3"
-  dependencies:
-    "@octokit/core": ^4.0.0
-    "@octokit/plugin-paginate-rest": ^3.0.0
-    "@octokit/plugin-request-log": ^1.0.4
-    "@octokit/plugin-rest-endpoint-methods": ^6.0.0
-  checksum: 9ee96976c4c22dab11b3dacd541e694f3ad9bb1d44243985dc90ce6e8a42c3e3176a206e8d3a883b63b517fc15af8c8c88d8d0ecd9bac2b86a635a9667fc6ff4
-  languageName: node
-  linkType: hard
-
 "@octokit/rest@npm:19.0.4":
   version: 19.0.4
   resolution: "@octokit/rest@npm:19.0.4"
@@ -1615,15 +1644,6 @@ __metadata:
     "@octokit/plugin-request-log": ^1.0.4
     "@octokit/plugin-rest-endpoint-methods": ^6.0.0
   checksum: 7eba9148b707c713705ba8d75c25fbb22488f30abef7967ce92884a51e411e709b90ff56b0e6fa5521b261f343a7fd33b8ad5d0b87cab4bc2e178002b2566cf2
-  languageName: node
-  linkType: hard
-
-"@octokit/types@npm:^6.41.0":
-  version: 6.41.0
-  resolution: "@octokit/types@npm:6.41.0"
-  dependencies:
-    "@octokit/openapi-types": ^12.11.0
-  checksum: fd6f75e0b19b90d1a3d244d2b0c323ed8f2f05e474a281f60a321986683548ef2e0ec2b3a946aa9405d6092e055344455f69f58957c60f58368c8bdda5b7d2ab
   languageName: node
   linkType: hard
 
@@ -2838,9 +2858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:16.1.1":
-  version: 16.1.1
-  resolution: "cacache@npm:16.1.1"
+"cacache@npm:16.1.2":
+  version: 16.1.2
+  resolution: "cacache@npm:16.1.2"
   dependencies:
     "@npmcli/fs": ^2.1.0
     "@npmcli/move-file": ^2.0.0
@@ -2860,7 +2880,7 @@ __metadata:
     ssri: ^9.0.0
     tar: ^6.1.11
     unique-filename: ^1.1.1
-  checksum: 488524617008b793f0249b0c4ea2c330c710ca997921376e15650cc2415a8054491ae2dee9f01382c2015602c0641f3f977faf2fa7361aa33d2637dcfb03907a
+  checksum: defe1d6f557ddda178204cac111990da27e8a60ed276fcd608dad7109cc1936e7dcd57d7263d22cdb06a80e7ceb76ab5eb05133c7c7f886abf1d870d722abd6c
   languageName: node
   linkType: hard
 
@@ -6920,17 +6940,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:32.169.1":
-  version: 32.169.1
-  resolution: "renovate@npm:32.169.1"
+"renovate@npm:32.179.1":
+  version: 32.179.1
+  resolution: "renovate@npm:32.179.1"
   dependencies:
     "@aws-sdk/client-ec2": 3.112.0
     "@aws-sdk/client-ecr": 3.112.0
+    "@aws-sdk/client-rds": 3.112.0
     "@aws-sdk/client-s3": 3.113.0
     "@breejs/later": 4.1.0
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 2.2.5
-    "@jamiemagee/osv-offline": 1.2.10
+    "@jamiemagee/osv-offline": 1.2.11
     "@renovatebot/pep440": 2.1.3
     "@renovatebot/ruby-semver": 1.1.4
     "@sindresorhus/is": 4.6.0
@@ -6940,7 +6961,7 @@ __metadata:
     auth-header: 1.0.0
     azure-devops-node-api: 11.2.0
     bunyan: 1.8.15
-    cacache: 16.1.1
+    cacache: 16.1.2
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
@@ -7011,7 +7032,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: ad4092e5f33db81f89c98a708a3ef06142f90c0f04388aa5313f8ce5247763f6f1374936c0a319600361879f059e4e02d0d948cd03d909558a130fe8cbc0931d
+  checksum: d82258cc11914db6aa54d8fa025fa7ea51efa7010749c678efef199008a92095b6ad5ec64c67be7bf96270882d04da4991cb215f0488c2cae853019844273ce7
   languageName: node
   linkType: hard
 
