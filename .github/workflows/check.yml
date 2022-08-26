@@ -20,6 +20,8 @@ jobs:
 
   lint:
     uses: SlashNephy/.github/.github/workflows/yarn-lint.yml@master
+    with:
+      enable-eslint: false
     permissions:
       contents: 'read'
       pull-requests: 'write'
