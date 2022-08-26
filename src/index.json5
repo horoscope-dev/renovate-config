@@ -1,0 +1,14 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: [
+    'config:base',
+    ':separateMultipleMajorReleases',
+    'github>horoscope-dev/renovate-config//src/labels.json5',
+    'github>horoscope-dev/renovate-config//src/include-forks.json5',
+    'github>horoscope-dev/renovate-config//src/reviewers.json5',
+    ':disableRateLimiting',
+    'github>horoscope-dev/renovate-config//src/schedule.json5',
+    'github>horoscope-dev/renovate-config//src/stability-days.json5',
+    'group:recommended',
+  ],
+}
