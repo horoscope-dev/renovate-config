@@ -18,10 +18,15 @@ jobs:
     with:
       script: 'test'
 
-  lint:
+  build:
     uses: SlashNephy/.github/.github/workflows/yarn-lint.yml@master
     with:
-      enable-eslint: false
+      script: 'build'
+    permissions:
+      contents: 'read'
+
+  lint:
+    uses: SlashNephy/.github/.github/workflows/yarn-lint.yml@master
     permissions:
       contents: 'read'
       pull-requests: 'write'
