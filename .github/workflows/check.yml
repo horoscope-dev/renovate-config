@@ -19,7 +19,7 @@ jobs:
       script: 'test'
 
   build:
-    uses: SlashNephy/.github/.github/workflows/yarn-build.yml@master
+    uses: SlashNephy/.github/.github/workflows/yarn-run.yml@master
     with:
       script: 'build'
     permissions:
